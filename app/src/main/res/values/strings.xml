@@ -1,0 +1,8 @@
+<!-- File Path: app/src/main/res/values/strings.xml -->
+<resources>
+    <string name="app_name">FreesHot</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_movies">Movies</string>
+    <string name="nav_live_tv">Live TV</string>
+    <string name="loading">Loading...</string>
+</resources>

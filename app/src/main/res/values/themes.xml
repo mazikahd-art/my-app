@@ -1,0 +1,25 @@
+<!-- File Path: app/src/main/res/values/themes.xml -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FreesHot" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/fiery_red</item>
+        <item name="colorPrimaryVariant">@color/fiery_red_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/fiery_orange</item>
+        <item name="colorSecondaryVariant">@color/fiery_orange</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/cyberpunk_black</item>
+        <!-- Window background -->
+        <item name="android:windowBackground">@color/cyberpunk_black</item>
+        <item name="android:navigationBarColor">@color/cyberpunk_black</item>
+    </style>
+
+    <style name="Theme.FreesHot.Splash" parent="Theme.FreesHot">
+        <item name="android:windowBackground">@color/cyberpunk_black</item>
+        <item name="android:statusBarColor">@color/cyberpunk_black</item>
+    </style>
+</resources>
